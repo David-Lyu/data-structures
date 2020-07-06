@@ -120,7 +120,7 @@ class BinarySearchTree {
                             }
                         }
                     }
-                    return true
+                    return true;
                 }
             }
         }
