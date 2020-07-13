@@ -23,16 +23,16 @@ function fiboncciaIterative(n) {
     for(let i = 2; i < n; i++) {
         arr.push(arr[i-2] + arr[i-1])
     }
-    return fibNum[n];
-}
+    return arr[n];
+} // O(n)
 fiboncciaIterative(3)
 
 function fibonacciRecursive(n) {
     if(n < 2) {
-        return name;
+        return n;
     }
     return fibonacciRecursive(n - 1) + fibonacciRecursive(n -2)
-}
+} // O(2^n)
 
 fibonacciRecursive(3)
 
